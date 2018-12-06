@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/C++/Sorting/SortingImplementations/.vs/SortingImplementations/v15
+/C++/Sorting/SortingImplementations/Debug
+/C++/Sorting/SortingImplementations/SortingImplementations/Debug
+/C++/Performance/PerformanceAnalysis/.vs/PerformanceAnalysis/v15
+/C++/Sorting/SortingImplementations/SortingImplementations/x64/Debug
+/C++/Sorting/SortingImplementations/x64/Debug
+/C#/Sorting/SortingImplementations/.vs
+/C#/Sorting/SortingImplementations/SortingImplementations/bin
+/C#/Sorting/SortingImplementations/SortingImplementations/obj
+/C#/Sorting/SearchingImplementations/.vs
+/C#/Sorting/SearchingImplementations/SearchingImplementations/bin
+/C#/Sorting/SearchingImplementations/SearchingImplementations/obj
