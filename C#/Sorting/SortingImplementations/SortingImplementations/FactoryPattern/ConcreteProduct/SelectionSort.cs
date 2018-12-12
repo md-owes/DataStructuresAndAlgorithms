@@ -18,15 +18,8 @@ namespace SortingImplementations
                     if (arr[j] < arr[index])
                         index = j;
                 }
-                Swap(ref arr[i], ref arr[index]);
+                Helper.Swap(ref arr[i], ref arr[index]);
             }
-        }
-
-        public void Swap(ref int x, ref int y)
-        {
-            int temp = x;
-            x = y;
-            y = temp;
         }
     }
 }

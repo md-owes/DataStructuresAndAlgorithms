@@ -15,7 +15,7 @@ namespace SortingImplementations
                 string[] strArray = input.Split(" ");
                 int[] intArray = Array.ConvertAll(strArray, int.Parse);
                 ISortFactory factoryObj = new SortFactory();
-                ISort sortObj = factoryObj.GetSort("selection");
+                ISort sortObj = factoryObj.GetSort("bubble");
                 sortObj.Sort(intArray);
                 Console.Write("Sorted Array => ");
                 Array.ForEach(intArray, k => Console.Write(k + " "));

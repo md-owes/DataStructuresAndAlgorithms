@@ -14,8 +14,8 @@ namespace SortingImplementations.FactoryPattern.ConcreteFactory
             {
                 case "selection":
                     return new SelectionSort();
-                case "binary":
-                    return new BinarySearch();
+                case "bubble":
+                    return new BubbleSort();
                 case "jump":
                     return new JumpingSearch();
                 default:
