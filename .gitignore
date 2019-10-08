@@ -19,3 +19,14 @@
 /C#/RandomArrayGenerator/RandomArrayGenerator/RandomArrayGenerator/obj
 /C#/RandomArrayGenerator/RandomArrayGenerator/RandomArrayGenerator/Properties/PublishProfiles
 *.user
+C#/Sorting/SortingImplementations/.vscode/launch.json
+C#/Sorting/SortingImplementations/.vscode/tasks.json
+C#/Sorting/SortingImplementations/.vscode/solution-explorer/class.cs-template
+C#/Sorting/SortingImplementations/.vscode/solution-explorer/class.ts-template
+C#/Sorting/SortingImplementations/.vscode/solution-explorer/class.vb-template
+C#/Sorting/SortingImplementations/.vscode/solution-explorer/default.ts-template
+C#/Sorting/SortingImplementations/.vscode/solution-explorer/enum.cs-template
+C#/Sorting/SortingImplementations/.vscode/solution-explorer/interface.cs-template
+C#/Sorting/SortingImplementations/.vscode/solution-explorer/interface.ts-template
+C#/Sorting/SortingImplementations/.vscode/solution-explorer/template-list.json
+C#/Sorting/SortingImplementations/.vscode/solution-explorer/template-parameters.js
