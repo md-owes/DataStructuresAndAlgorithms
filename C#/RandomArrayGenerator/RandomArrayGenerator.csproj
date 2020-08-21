@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <StartupObject>RandomArrayGenerator.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="RandomArrayGenerator\RandomArrayGenerator\obj\Debug\netcoreapp2.1\.NETCoreApp,Version=v2.1.AssemblyAttributes.cs" />
+    <Compile Remove="RandomArrayGenerator\RandomArrayGenerator\obj\Debug\netcoreapp2.1\RandomArrayGenerator.AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="RandomArrayGenerator\RandomArrayGenerator\obj\project.assets.json" />
+    <None Remove="RandomArrayGenerator\RandomArrayGenerator\obj\RandomArrayGenerator.csproj.nuget.cache" />
+    <None Remove="RandomArrayGenerator\RandomArrayGenerator\obj\RandomArrayGenerator.csproj.nuget.dgspec.json" />
+    <None Remove="RandomArrayGenerator\RandomArrayGenerator\obj\RandomArrayGenerator.csproj.nuget.g.targets" />
+    <None Remove="RandomArrayGenerator\RandomArrayGenerator\obj\RandomArrayGenerator.csproj.nuget.g.props" />
+    <None Remove="RandomArrayGenerator\RandomArrayGenerator\obj\Debug\netcoreapp2.1\RandomArrayGenerator.assets.cache" />
+    <None Remove="RandomArrayGenerator\RandomArrayGenerator\obj\Debug\netcoreapp2.1\RandomArrayGenerator.csprojAssemblyReference.cache" />
+    <None Remove="RandomArrayGenerator\RandomArrayGenerator\obj\Debug\netcoreapp2.1\RandomArrayGenerator.AssemblyInfoInputs.cache" />
+    <None Remove="RandomArrayGenerator\RandomArrayGenerator\obj\Debug\netcoreapp2.1\RandomArrayGenerator.csproj.CoreCompileInputs.cache" />
+  </ItemGroup>
+</Project>
