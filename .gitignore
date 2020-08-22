@@ -18,9 +18,9 @@
 /C#/RandomArrayGenerator/bin
 /C#/RandomArrayGenerator/obj
 C#/Sorting/SortingImplementations/.vscode/*
-/C#/DSACourse/.vs
-/C#/DSACourse/Week1/bin
-/C#/DSACourse/Week1/obj
+/C#/DSACourse/Introduction/.vs
+/C#/DSACourse/Introduction/bin
+/C#/DSACourse/Introduction/obj
 .vscode/*
 .vs/*
 .git/*

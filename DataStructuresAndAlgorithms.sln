@@ -12,9 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C#", "C#", "{EABC4042-4F27-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DSACourse", "DSACourse", "{5048A5C1-7D0C-44DE-A5F6-5E127FAE04C5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week1", "Week1", "{B57D3243-56E1-4E8D-8E43-92F6CCCCA031}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Introduction", "Introduction", "{B57D3243-56E1-4E8D-8E43-92F6CCCCA031}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1", "C#\DSACourse\Week1\Week1.csproj", "{E05E0E6A-BDFC-4071-A04F-EAC87A7F37C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction", "C#\DSACourse\Introduction\Introduction.csproj", "{E05E0E6A-BDFC-4071-A04F-EAC87A7F37C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
