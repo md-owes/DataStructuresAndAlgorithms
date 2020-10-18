@@ -10,7 +10,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/C#/DSACourse/Mathematics/bin/Debug/netcoreapp3.1/Mathematics.dll",
+            "program": "${fileDirname}/bin/Debug/netcoreapp3.1/Mathematics.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal",
