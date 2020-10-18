@@ -22,7 +22,7 @@ void quadraticRoots(int a, int b, int c)
         cout<<"Negative result = "<<negResult<<endl;
         cout<<"Positive result = "<<posResult<<endl;
 
-        cout<<negResult<<" "<<posResult;
+        cout<<negResult<<" "<<posResult<<endl;
     }
 }
 

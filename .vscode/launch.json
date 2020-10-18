@@ -5,6 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": ".NET Core Launch (console)",
+            "requireExactSource": false,
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/C#/DSACourse/Mathematics/bin/Debug/netcoreapp3.1/Mathematics.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
             "name": "g++ - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
