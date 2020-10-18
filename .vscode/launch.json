@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": ".NET Core Launch (console)",
-            "requireExactSource": false,
+            "requireExactSource": true,
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
