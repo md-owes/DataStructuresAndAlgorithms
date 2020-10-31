@@ -24,7 +24,7 @@
             "command": "/usr/bin/g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/C++/Sandbox/DSACourse/*.cpp",
+                "${workspaceFolder}/C++/Sandbox/DSACourse/Recursion/SumOfNUsingRecursion.cpp",
                 "-o",
                 "${fileDirname}/bin/${fileBasenameNoExtension}"
             ],

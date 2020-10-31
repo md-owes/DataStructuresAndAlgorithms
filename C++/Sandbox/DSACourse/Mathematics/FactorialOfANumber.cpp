@@ -5,13 +5,12 @@ long long factorial(int N) {
     // Your code here
     long long result=1;
     for(int i=N;i>0;i--){
-        result=result*N;
-        //cout << result;
+        result=result*i;
     }
     return result;
 }
 
 int main()
 {
-    factorial(5);
+    cout<<"Result => "<<factorial(10)<<endl;
 }

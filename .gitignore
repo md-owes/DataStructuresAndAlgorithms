@@ -26,4 +26,5 @@ C#/Sorting/SortingImplementations/.vscode/*
 /C#/DSACourse/Mathematics/obj
 .vs/*
 .git/*
-C++/Sandbox/DSACourse/bin
+C++/Sandbox/DSACourse/Mathematics/bin
+C++/Sandbox/DSACourse/Recursion/bin
