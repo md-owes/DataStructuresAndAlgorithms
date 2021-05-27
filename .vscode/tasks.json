@@ -44,7 +44,7 @@
                 "-std=c++17",
                 "-stdlib=libc++",
                 "-g",
-                "${workspaceFolder}/C++/Sandbox/DSACourse/Recursion/SumOfNUsingRecursion.cpp",
+                "${workspaceFolder}/C++/Sandbox/DSACourse/Recursion/FibonacciRecursion.cpp",
                 "-o",
                 "${fileDirname}/bin/${fileBasenameNoExtension}"
             ],
