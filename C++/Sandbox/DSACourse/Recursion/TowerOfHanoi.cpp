@@ -1,18 +1,30 @@
+#include <cstdio>
 #include <iostream>
 using namespace std;
 
-void toh(int N, int from, int to, int aux) {
+long long toh(int N, int from, int to, int aux) {
   // Your code here
+  int moves = 0;
   if (N == 1) {
     cout << "move disk 1 from rod " << from << " to rod " << to << endl;
-    return;
+    return N;
   }
-  toh(N - 1, from, aux, to);
+  moves += toh(N - 1, from, aux, to) + 1;
   cout << "move disk " << N << " from rod " << from << " to rod " << to << endl;
-  toh(N - 1, aux, to, from);
+  moves += toh(N - 1, aux, to, from) + 1;
+  return --moves;
 }
 
 int main() {
-  toh(3, 1, 3, 2);
+
+  int T;
+  scanf("%d", &T);
+  while (T--) {
+    long long moves = 0;
+    int N;
+    scanf("%d", &N);
+    moves = toh(N, 1, 3, 2);
+    printf("%ld\n", moves);
+  }
   return 0;
 }
