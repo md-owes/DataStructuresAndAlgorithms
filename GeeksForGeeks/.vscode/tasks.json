@@ -24,12 +24,12 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}\\GeeksForGeeks\\C++\\Sandbox\\DSACourse\\Recursion\\Josephus.cpp",
+                "${workspaceFolder}\\C++\\Sandbox\\DSACourse\\Recursion\\Josephus.cpp",
                 "-o",
                 "${fileDirname}\\bin\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "${workspaceFolder}\\GeeksForGeeks\\C++\\Sandbox\\DSACourse\\"
+                "cwd": "${workspaceFolder}\\C++\\Sandbox\\DSACourse\\"
             },
             "problemMatcher": [
                 "$gcc"
@@ -42,12 +42,12 @@
             "command": "/usr/bin/g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/GeeksForGeeks/C++/Sandbox/DSACourse/Recursion/Josephus.cpp",
+                "${workspaceFolder}/C++/Sandbox/DSACourse/Recursion/Josephus.cpp",
                 "-o",
                 "${fileDirname}/bin/${fileBasenameNoExtension}"
             ],
             "options": {
-                "cwd": "${workspaceFolder}/GeeksForGeeks/C++/Sandbox/DSACourse/"
+                "cwd": "${workspaceFolder}/C++/Sandbox/DSACourse/"
             },
             "problemMatcher": [
                 "$gcc"
@@ -65,12 +65,12 @@
                 "-std=c++17",
                 "-stdlib=libc++",
                 "-g",
-                "${workspaceFolder}/GeeksForGeeks/C++/Sandbox/DSACourse/Recursion/Josephus.cpp",
+                "${workspaceFolder}/C++/Sandbox/DSACourse/Recursion/Josephus.cpp",
                 "-o",
                 "${fileDirname}/bin/${fileBasenameNoExtension}"
             ],
             "options": {
-                "cwd": "${workspaceFolder}/GeeksForGeeks/C++/Sandbox/DSACourse/"
+                "cwd": "${workspaceFolder}/C++/Sandbox/DSACourse/"
             },
             "problemMatcher": [
                 "$gcc"
