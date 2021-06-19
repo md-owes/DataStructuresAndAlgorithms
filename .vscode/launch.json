@@ -38,7 +38,7 @@
             "miDebuggerPath": "gdb"
         },
         {
-            "name": "g++ - Build and debug active file",
+            "name": "g++ - Build and debug active file Linux",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/bin/${fileBasenameNoExtension}",
@@ -59,7 +59,7 @@
             "miDebuggerPath": "/usr/bin/gdb"
         },
         {
-            "name": "g++ - Build and debug active file - mac",
+            "name": "g++ - Build and debug active file - Mac",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/bin/${fileBasenameNoExtension}",
@@ -76,7 +76,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: clang++ build active file"
+            "preLaunchTask": "C/C++: clang++ build active file Mac"
         }
     ]
 }
